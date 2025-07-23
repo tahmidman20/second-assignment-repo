@@ -95,6 +95,7 @@ nav {
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
   margin-top: 45px;
   padding: 0;
   justify-content: space-between;
@@ -122,6 +123,8 @@ nav {
 }
 .card-body {
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 /* Mobile responsive */
@@ -136,16 +139,13 @@ nav {
   /* hero section  responsive */
 
   .hero-section {
-    /* background-color: cadetblue; */
-    /* max-width: 1240px; */
     flex-direction: row-reverse;
     margin: auto;
-    /* margin-top: 120px; */
+
     display: block;
   }
 
   .titls {
-    /* background-color: chartreuse; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -155,7 +155,6 @@ nav {
     font-weight: bold;
   }
   .frish-flowers {
-    /* color: #e95a08; */
     color: #e95a08;
   }
   .sub-title {
@@ -166,6 +165,18 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: #e95a08; */
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .primary-btn {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+  .card-body img {
+    height: auto !important;
+    width: 100%;
   }
 }
