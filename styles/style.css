@@ -1,3 +1,10 @@
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 /* nav related style */
 nav {
   /* background-color: aquamarine; */
@@ -30,6 +37,40 @@ nav {
   color: black;
 }
 
+/* hero-section-related-style */
+.hero-section {
+  /* background-color: cadetblue; */
+  max-width: 1240px;
+  flex-direction: row-reverse;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+}
+.titls {
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.frish-flowers {
+  color: #e95a08;
+}
+.sub-title {
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.hero-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  /* background-color: #e95a08; */
+}
+
 /* Mobile responsive */
 @media (max-width: 576px) {
   /* body {
@@ -44,4 +85,5 @@ nav {
   .nav-item-3 {
     visibility: hidden;
   }
+  /* hero section  responsive */
 }
