@@ -1,0 +1,47 @@
+/* nav related style */
+nav {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+}
+.nav-item {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+.nav-item a {
+  text-decoration: none;
+  /* color: #000; */
+}
+.nav-item-1 {
+  color: rgb(3, 3, 3);
+  font-weight: 700;
+}
+.nav-item-2 {
+  color: #8987a1;
+}
+.nav-item-3 {
+  color: #8987a1;
+}
+.nav-item-4 {
+  color: black;
+}
+
+/* Mobile responsive */
+@media (max-width: 576px) {
+  /* body {
+    background-color: brown;
+  } */
+  .nav-item-1 {
+    visibility: hidden;
+  }
+  .nav-item-2 {
+    visibility: hidden;
+  }
+  .nav-item-3 {
+    visibility: hidden;
+  }
+}
