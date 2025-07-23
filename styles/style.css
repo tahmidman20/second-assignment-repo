@@ -72,6 +72,57 @@ nav {
 
   /* background-color: #e95a08; */
 }
+/* card related style */
+.card-section {
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 120px;
+}
+.section-title {
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.our {
+  color: #e95a08;
+}
+.section-sub-title {
+  color: #8987a1;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 45px;
+  padding: 0;
+  justify-content: space-between;
+}
+.card-name {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.card-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+.primary-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #e95a08;
+  padding: 19px 80px;
+  border: none;
+  margin-bottom: 10px;
+}
+.card-body {
+  text-align: center;
+}
 
 /* Mobile responsive */
 @media (max-width: 576px) {
