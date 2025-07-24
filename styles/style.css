@@ -148,11 +148,11 @@ nav {
   margin-top: 200px;
   gap: 60px;
 }
-/* deals section related style */
-/* .deals-section {
-  max-width: 1240px;
-  margin: auto;
-} */
+/* deals section related style  */
+.deals-section {
+  text-align: center;
+  margin-top: 120px;
+}
 
 /* subscribe-section related style*/
 .subscribe-section {
@@ -234,6 +234,120 @@ nav {
 .footer-4 img {
   width: 10%;
   gap: 10px;
+}
+/* /deals section */
+.deals-section {
+  margin-bottom: 120px;
+}
+.deals-section h2 {
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+.highlight {
+  color: #e95a08;
+}
+.deals-section p {
+  font-size: 1.3rem;
+  color: #8987a1;
+}
+/* deals section container */
+.deals-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.deals-container img {
+  border-radius: 14px;
+}
+
+#image-2 {
+  margin-top: 25px;
+}
+.right-side {
+  position: relative;
+}
+.right-side-cotent {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+.right-side-cotent h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.right-side-cotent a {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 98%;
+  width: 100%;
+  border-radius: 14px;
+  background-color: #0a0a0a79;
+  z-index: 2;
+}
+.left-img-1 {
+  position: relative;
+}
+.left-side-cotent-1 {
+  position: absolute;
+  padding-right: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+.left-side-cotent-1 a {
+  color: white;
+}
+.overlay-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 99%;
+  width: 82%;
+  border-radius: 14px;
+  background-color: #0a0a0a79;
+  z-index: 2;
+}
+.left-img-2 {
+  position: relative;
+}
+.left-side-cotent-2 {
+  position: absolute;
+  padding-right: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  z-index: 3;
+}
+.left-side-cotent-2 a {
+  color: white;
+}
+
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 24px;
+  height: 88%;
+  width: 82%;
+  border-radius: 14px;
+  background-color: #0a0a0a79;
+  z-index: 2;
 }
 
 /* Mobile responsive */
