@@ -126,6 +126,28 @@ nav {
   width: 100%;
   height: auto;
 }
+/* flower plants section related style */
+.flower-plants-section {
+  max-width: 1240px;
+  margin: auto;
+}
+.shop-text-title {
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+.shop-sub-list {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #8987a1;
+}
+.shop-text {
+  gap: 20px;
+}
+.shop-container {
+  display: flex;
+  margin-top: 200px;
+  gap: 60px;
+}
 
 /* Mobile responsive */
 @media (max-width: 576px) {
@@ -141,7 +163,6 @@ nav {
   .hero-section {
     flex-direction: row-reverse;
     margin: auto;
-
     display: block;
   }
 
@@ -178,5 +199,23 @@ nav {
   .card-body img {
     height: auto !important;
     width: 100%;
+  }
+  .flower-plants-section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+  }
+  .flower-plants-section img {
+    width: 100%;
+    height: auto;
+  }
+  .shop-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 60px;
   }
 }
