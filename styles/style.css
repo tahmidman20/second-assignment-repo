@@ -161,6 +161,7 @@ nav {
   text-align: center;
   color: white;
   position: relative;
+  margin-top: 100px;
 }
 .subscribe-section h2 {
   font-size: 2.5rem;
@@ -181,17 +182,62 @@ nav {
 }
 .form-container button {
   padding: 8px 20px;
-  background-color: #f05a28;
+  background-color: #e95a08;
   color: white;
   border: none;
   cursor: pointer;
   font-size: 1rem;
 }
+
+/* footer section related style*/
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+  gap: 20px;
+}
+.footer-1 {
+  width: 30%;
+}
+.footer-1 p {
+  color: rgba(107, 114, 128, 1);
+  font-size: 1.3rem;
+}
+.footer-2 {
+  width: 20%;
+}
+.footer-2 ul {
+  list-style: none;
+  gap: 10px;
+  color: rgba(107, 114, 128, 1);
+}
+.footer-2 ul > li {
+  margin-bottom: 20px;
+}
+.footer-3 {
+  width: 20%;
+}
+.footer-3 ul {
+  list-style: none;
+  gap: 10px;
+  color: rgba(107, 114, 128, 1);
+}
+.footer-3 ul > li {
+  margin-bottom: 20px;
+}
+.footer-4 {
+  /* width: 30%; */
+
+  align-items: center;
+  justify-content: center;
+}
+.footer-4 img {
+  width: 10%;
+  gap: 10px;
+}
+
 /* Mobile responsive */
 @media (max-width: 576px) {
-  /* body {
-    background-color: brown;
-  } */
   .not-show-mobile {
     display: none;
   }
@@ -263,6 +309,13 @@ nav {
 
   .form-container button {
     margin-top: 10px;
+  }
+  /* footer section */
+  .footer-section {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    text-align: start;
   }
 }
 @media (max-width: 345px) {
