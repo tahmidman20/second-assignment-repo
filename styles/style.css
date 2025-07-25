@@ -134,19 +134,36 @@ nav {
 .shop-text-title {
   font-size: 3.1rem;
   font-weight: bold;
+  margin-left: 100px;
 }
 .shop-sub-list {
   font-size: 1.3rem;
   margin-bottom: 30px;
   color: #8987a1;
+  margin-left: 100px;
 }
+
 .shop-text {
   gap: 20px;
 }
 .shop-container {
   display: flex;
   margin-top: 200px;
+
   gap: 60px;
+}
+.shop-img {
+  position: relative;
+  width: 400px;
+  max-width: 100%;
+}
+.trusted-badge {
+  position: absolute;
+  top: -100px;
+  left: 130%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: auto;
 }
 /* deals section related style  */
 .deals-section {
